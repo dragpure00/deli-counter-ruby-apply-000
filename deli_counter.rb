@@ -35,7 +35,7 @@ def now_serving(array)
     puts "Currently serving #{array.shift}."
   end
 end
-until array.empty?
+until array.empty? == true
 now_serving(deli)
 line(deli)
 end
