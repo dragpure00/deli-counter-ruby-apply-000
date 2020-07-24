@@ -37,4 +37,3 @@ def now_serving(array)
     line(deli)
   end
 end
-
