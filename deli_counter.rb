@@ -33,7 +33,7 @@ def now_serving(array)
     puts "There is nobody waiting to be served!"
   elsif array.empty? == false
     puts "Currently serving #{array.shift}."
-    now_serving(deli)
-    line(deli)
   end
 end
+now_serving(deli)
+line(deli)
